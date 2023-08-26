@@ -1,1 +1,1 @@
-Expense_tracker using react.js and context api.
+Expense_tracker using React.js and Redux.

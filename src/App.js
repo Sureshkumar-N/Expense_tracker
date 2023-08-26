@@ -8,7 +8,7 @@ import Addtransaction from "./components/Addtransaction";
 import GlobalProvider from "./context/GlobalState";
 export default function App() {
   return(
-    <GlobalProvider>
+    <>
       <Header />
       <div className="container">
         <Balance />
@@ -16,7 +16,7 @@ export default function App() {
         <TransactionList />
         <Addtransaction />
       </div>
-    </GlobalProvider>
+    </>
   );
 }
 
